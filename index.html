@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MyfirstCRUD</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="topdiv">
+  <h1>Plataforma Usuarios</h1>
+  <p class="subtitle">Esta plataforma le permitirá: crear, actualizar, consultar y eliminar<br> usuarios</p>
+</div>
+
+<div class="centerdiv">  
+  <table>
+    <table class= "table1">      
+        <tr>
+          <td>
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+          </td> 
+          <td>
+            <label for="Apellido">Apellido:</label><br>
+            <input type="text" name="Apellido" id="Apellido" placeholder="Apellido">   
+          </td> 
+          <td>
+            <label for="Celular">Celular:</label><br>
+            <input type="number" name="Celular" id="Celular" placeholder="Celular">  
+          </td> 
+        </tr>      
+      </table> 
+      <table class="tablebtncrear">
+        <tr>
+          <td>
+            <button id="crearButton" onclick="onFormSubmit()">Crear</button>
+          </td>  
+        </tr>
+        </table> 
+        <table>
+        <tr>
+          <td>            
+            <input type="text" id="searchInput"  placeholder="Buscar..." title="Type in a name" style="width:560px">
+            <button id="buscarButton" onclick="onBuscar()"> <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" width="10" height="10"></button>            
+          </td>  
+       </tr>          
+      </table>  
+      <table class="list" id="storeList">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Celular</th>
+            <th>Acción</th>            
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+ </table>
+  <p id="demo"></p>
+</div>
+<div class="bottomdiv">
+  <button onclick="location.href = 'https://www.google.com/';">Salir</button>
+</div>
+<!-- partial -->
+  <script  src="./js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  /*Background color for entire page*/
+  background-color: #f08deb;
+}
+
+.topdiv {
+  /*Styling the top "header" for my page*/
+   
+  text-align: center;  
+  font-family: "Courier New", Courier, monospace;
+}
+
+.centerdiv {
+  /*A blue div that covers the full widith of the page*/
+  background-color: GhostWhite;
+  width: 100%;
+  margin: 0px 0px 10px -9px;
+  padding: 2px 9px 10px 10px;  
+  text-align: center;  
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.bottomdiv {
+  /*Styling the top "header" for my page*/
+   
+  text-align: center;  
+  font-family: "Courier New", Courier, monospace;
+}
+
+table{
+    width: 50%;
+    margin: 10px auto; 
+}
+
+.table1{  
+  text-align: left;
+}
+
+.tablebtncrear{
+   border-bottom: thick double #ccc8c8;
+}
+
+.list{
+  border: 1px solid;  
+}
+.list th{
+  border: 1px solid;
+}
+
+tr:nth-child(even), table.list thread> tr{
+  border: 1px solid;
+  background-color: #ccc8c8;
+}
