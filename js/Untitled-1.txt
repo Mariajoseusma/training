@@ -1,0 +1,40 @@
+// const request = new XMLHttpRequest();
+
+// function reqListener () {
+//   if (request.readyState == 4) {
+//     console.log(this.responseText);
+//     console.log(request.status);
+//   }  
+// }
+
+// request.addEventListener("load", reqListener);
+
+// request.open('POST', 'http://127.0.0.1:3333/api/v1/users/store', true);
+// // request.open('POST', 'http://127.0.0.1:3333/api/v1/users/edit', true);
+// // request.open('POST', 'http://127.0.0.1:3333/api/v1/users/search', true);
+// // request.open('POST', 'http://127.0.0.1:3333/api/v1/users/delete', true);
+
+// // request.open('POST', 'http://127.0.0.1:3333/api/v1/users/search', true);
+// // request.open('GET', 'https://jsonplaceholder.typicode.com/todos', true);
+
+// request.setRequestHeader("Accept", "*/*");
+// request.setRequestHeader("Content-Type", "application/json");
+
+
+// var store = JSON.stringify({
+//   "name": "Maria",
+//   "surname": "Usma",
+//   "cellphone" : "123456"
+// });
+
+// var edit = JSON.stringify({
+//   "id": "15",
+//   "name": "Jose",
+//   "surname": "Usma",
+//   "cellphone" : "1256789"
+// });
+
+// var search = JSON.stringify({"id": "17"});
+// var del = JSON.stringify({"id": "11"});
+
+// request.send(store); 

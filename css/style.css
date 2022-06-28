@@ -51,3 +51,8 @@ tr:nth-child(even), table.list thread> tr{
   border: 1px solid;
   background-color: #ccc8c8;
 }
+
+.hide {
+  visibility: hidden;
+  border: none;
+}
